@@ -28,6 +28,5 @@ setuptools.setup(
     ],
     package_dir={"": "."},
     packages=setuptools.find_packages(where="."),
-    python_requires=">=3.9",
-    scripts=["manage.py"],
+    python_requires=">=3.9"
 )
